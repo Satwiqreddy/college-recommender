@@ -1,0 +1,4 @@
+nodeProcessCommandLine: "node.exe"
+loggingEnabled: true
+devErrorsEnabled: true
+catchAllTrackedExceptions: true
