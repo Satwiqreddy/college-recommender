@@ -1,0 +1,145 @@
+University_Name,Type,Region,State,City,Avg_Annual_Fees,Rating,NIRF_Rank
+IIT Madras Campus 1,IIT,South,Tamil Nadu,Chennai,220000,9.5,1
+VIT Vellore Campus 1,Private,South,Tamil Nadu,Vellore,200000,8.8,15
+SRM Institute of Science and Technology Campus 1,Private,South,Tamil Nadu,Chennai,250000,8.4,30
+Amrita Vishwa Vidyapeetham Campus 1,Private,South,Tamil Nadu,Coimbatore,180000,8.7,19
+SASTRA University Campus 1,Private,South,Tamil Nadu,Thanjavur,170000,8.5,35
+Shiv Nadar University Chennai Campus 1,Private,South,Tamil Nadu,Chennai,300000,8.6,40
+Christ University Campus 1,Private,South,Karnataka,Bangalore,190000,8.6,35
+Manipal Academy of Higher Education Campus 1,Private,South,Karnataka,Manipal,300000,9.0,25
+REVA University Campus 1,Private,South,Karnataka,Bangalore,180000,7.9,70
+Dayananda Sagar University Campus 1,Private,South,Karnataka,Bangalore,200000,8.0,80
+Jain University Campus 1,Private,South,Karnataka,Bangalore,220000,8.2,85
+KL University Campus 1,Private,South,Andhra Pradesh,Vijayawada,200000,8.2,40
+GITAM University Campus 1,Private,South,Andhra Pradesh,Vizag,210000,8.1,55
+SRKR Engineering College Campus 1,Private,South,Andhra Pradesh,Bhimavaram,120000,7.5,100
+IIT Delhi Campus 1,IIT,North,Delhi,New Delhi,220000,9.6,2
+Amity University Noida Campus 1,Private,North,Uttar Pradesh,Noida,300000,8.0,55
+Shiv Nadar University Campus 1,Private,North,Uttar Pradesh,Greater Noida,350000,8.6,35
+Bennett University Campus 1,Private,North,Uttar Pradesh,Greater Noida,320000,8.1,65
+Galgotias University Campus 1,Private,North,Uttar Pradesh,Greater Noida,180000,7.8,90
+Thapar Institute of Engineering and Technology Campus 1,Private,North,Punjab,Patiala,250000,8.7,30
+Lovely Professional University Campus 1,Private,North,Punjab,Jalandhar,180000,7.9,60
+Chandigarh University Campus 1,Private,North,Punjab,Chandigarh,170000,8.3,45
+BITS Pilani Campus 1,Private,West,Rajasthan,Pilani,400000,9.2,10
+Poornima University Campus 1,Private,West,Rajasthan,Jaipur,150000,7.5,110
+NMIMS Mumbai Campus 1,Private,West,Maharashtra,Mumbai,400000,8.8,25
+MIT World Peace University Campus 1,Private,West,Maharashtra,Pune,220000,8.3,50
+Symbiosis International University Campus 1,Private,West,Maharashtra,Pune,350000,9.0,20
+Parul University Campus 1,Private,West,Gujarat,Vadodara,160000,7.8,95
+Nirma University Campus 1,Private,West,Gujarat,Ahmedabad,250000,8.6,35
+KIIT University Campus 1,Private,East,Odisha,Bhubaneswar,250000,8.3,50
+Siksha 'O' Anusandhan Campus 1,Private,East,Odisha,Bhubaneswar,200000,8.0,70
+Brainware University Campus 1,Private,East,West Bengal,Kolkata,140000,7.6,120
+Techno India University Campus 1,Private,East,West Bengal,Kolkata,150000,7.7,115
+Amity University Raipur Campus 1,Private,Central,Chhattisgarh,Raipur,200000,7.8,100
+ITM University Gwalior Campus 1,Private,Central,Madhya Pradesh,Gwalior,180000,7.7,110
+Oriental University Campus 1,Private,Central,Madhya Pradesh,Indore,150000,7.5,130
+IIT Madras Campus 2,IIT,South,Tamil Nadu,Chennai,220000,9.5,1
+VIT Vellore Campus 2,Private,South,Tamil Nadu,Vellore,200000,8.8,15
+SRM Institute of Science and Technology Campus 2,Private,South,Tamil Nadu,Chennai,250000,8.4,30
+Amrita Vishwa Vidyapeetham Campus 2,Private,South,Tamil Nadu,Coimbatore,180000,8.7,19
+SASTRA University Campus 2,Private,South,Tamil Nadu,Thanjavur,170000,8.5,35
+Shiv Nadar University Chennai Campus 2,Private,South,Tamil Nadu,Chennai,300000,8.6,40
+Christ University Campus 2,Private,South,Karnataka,Bangalore,190000,8.6,35
+Manipal Academy of Higher Education Campus 2,Private,South,Karnataka,Manipal,300000,9.0,25
+REVA University Campus 2,Private,South,Karnataka,Bangalore,180000,7.9,70
+Dayananda Sagar University Campus 2,Private,South,Karnataka,Bangalore,200000,8.0,80
+Jain University Campus 2,Private,South,Karnataka,Bangalore,220000,8.2,85
+KL University Campus 2,Private,South,Andhra Pradesh,Vijayawada,200000,8.2,40
+GITAM University Campus 2,Private,South,Andhra Pradesh,Vizag,210000,8.1,55
+SRKR Engineering College Campus 2,Private,South,Andhra Pradesh,Bhimavaram,120000,7.5,100
+IIT Delhi Campus 2,IIT,North,Delhi,New Delhi,220000,9.6,2
+Amity University Noida Campus 2,Private,North,Uttar Pradesh,Noida,300000,8.0,55
+Shiv Nadar University Campus 2,Private,North,Uttar Pradesh,Greater Noida,350000,8.6,35
+Bennett University Campus 2,Private,North,Uttar Pradesh,Greater Noida,320000,8.1,65
+Galgotias University Campus 2,Private,North,Uttar Pradesh,Greater Noida,180000,7.8,90
+Thapar Institute of Engineering and Technology Campus 2,Private,North,Punjab,Patiala,250000,8.7,30
+Lovely Professional University Campus 2,Private,North,Punjab,Jalandhar,180000,7.9,60
+Chandigarh University Campus 2,Private,North,Punjab,Chandigarh,170000,8.3,45
+BITS Pilani Campus 2,Private,West,Rajasthan,Pilani,400000,9.2,10
+Poornima University Campus 2,Private,West,Rajasthan,Jaipur,150000,7.5,110
+NMIMS Mumbai Campus 2,Private,West,Maharashtra,Mumbai,400000,8.8,25
+MIT World Peace University Campus 2,Private,West,Maharashtra,Pune,220000,8.3,50
+Symbiosis International University Campus 2,Private,West,Maharashtra,Pune,350000,9.0,20
+Parul University Campus 2,Private,West,Gujarat,Vadodara,160000,7.8,95
+Nirma University Campus 2,Private,West,Gujarat,Ahmedabad,250000,8.6,35
+KIIT University Campus 2,Private,East,Odisha,Bhubaneswar,250000,8.3,50
+Siksha 'O' Anusandhan Campus 2,Private,East,Odisha,Bhubaneswar,200000,8.0,70
+Brainware University Campus 2,Private,East,West Bengal,Kolkata,140000,7.6,120
+Techno India University Campus 2,Private,East,West Bengal,Kolkata,150000,7.7,115
+Amity University Raipur Campus 2,Private,Central,Chhattisgarh,Raipur,200000,7.8,100
+ITM University Gwalior Campus 2,Private,Central,Madhya Pradesh,Gwalior,180000,7.7,110
+Oriental University Campus 2,Private,Central,Madhya Pradesh,Indore,150000,7.5,130
+IIT Madras Campus 3,IIT,South,Tamil Nadu,Chennai,220000,9.5,1
+VIT Vellore Campus 3,Private,South,Tamil Nadu,Vellore,200000,8.8,15
+SRM Institute of Science and Technology Campus 3,Private,South,Tamil Nadu,Chennai,250000,8.4,30
+Amrita Vishwa Vidyapeetham Campus 3,Private,South,Tamil Nadu,Coimbatore,180000,8.7,19
+SASTRA University Campus 3,Private,South,Tamil Nadu,Thanjavur,170000,8.5,35
+Shiv Nadar University Chennai Campus 3,Private,South,Tamil Nadu,Chennai,300000,8.6,40
+Christ University Campus 3,Private,South,Karnataka,Bangalore,190000,8.6,35
+Manipal Academy of Higher Education Campus 3,Private,South,Karnataka,Manipal,300000,9.0,25
+REVA University Campus 3,Private,South,Karnataka,Bangalore,180000,7.9,70
+Dayananda Sagar University Campus 3,Private,South,Karnataka,Bangalore,200000,8.0,80
+Jain University Campus 3,Private,South,Karnataka,Bangalore,220000,8.2,85
+KL University Campus 3,Private,South,Andhra Pradesh,Vijayawada,200000,8.2,40
+GITAM University Campus 3,Private,South,Andhra Pradesh,Vizag,210000,8.1,55
+SRKR Engineering College Campus 3,Private,South,Andhra Pradesh,Bhimavaram,120000,7.5,100
+IIT Delhi Campus 3,IIT,North,Delhi,New Delhi,220000,9.6,2
+Amity University Noida Campus 3,Private,North,Uttar Pradesh,Noida,300000,8.0,55
+Shiv Nadar University Campus 3,Private,North,Uttar Pradesh,Greater Noida,350000,8.6,35
+Bennett University Campus 3,Private,North,Uttar Pradesh,Greater Noida,320000,8.1,65
+Galgotias University Campus 3,Private,North,Uttar Pradesh,Greater Noida,180000,7.8,90
+Thapar Institute of Engineering and Technology Campus 3,Private,North,Punjab,Patiala,250000,8.7,30
+Lovely Professional University Campus 3,Private,North,Punjab,Jalandhar,180000,7.9,60
+Chandigarh University Campus 3,Private,North,Punjab,Chandigarh,170000,8.3,45
+BITS Pilani Campus 3,Private,West,Rajasthan,Pilani,400000,9.2,10
+Poornima University Campus 3,Private,West,Rajasthan,Jaipur,150000,7.5,110
+NMIMS Mumbai Campus 3,Private,West,Maharashtra,Mumbai,400000,8.8,25
+MIT World Peace University Campus 3,Private,West,Maharashtra,Pune,220000,8.3,50
+Symbiosis International University Campus 3,Private,West,Maharashtra,Pune,350000,9.0,20
+Parul University Campus 3,Private,West,Gujarat,Vadodara,160000,7.8,95
+Nirma University Campus 3,Private,West,Gujarat,Ahmedabad,250000,8.6,35
+KIIT University Campus 3,Private,East,Odisha,Bhubaneswar,250000,8.3,50
+Siksha 'O' Anusandhan Campus 3,Private,East,Odisha,Bhubaneswar,200000,8.0,70
+Brainware University Campus 3,Private,East,West Bengal,Kolkata,140000,7.6,120
+Techno India University Campus 3,Private,East,West Bengal,Kolkata,150000,7.7,115
+Amity University Raipur Campus 3,Private,Central,Chhattisgarh,Raipur,200000,7.8,100
+ITM University Gwalior Campus 3,Private,Central,Madhya Pradesh,Gwalior,180000,7.7,110
+Oriental University Campus 3,Private,Central,Madhya Pradesh,Indore,150000,7.5,130
+IIT Madras Campus 4,IIT,South,Tamil Nadu,Chennai,220000,9.5,1
+VIT Vellore Campus 4,Private,South,Tamil Nadu,Vellore,200000,8.8,15
+SRM Institute of Science and Technology Campus 4,Private,South,Tamil Nadu,Chennai,250000,8.4,30
+Amrita Vishwa Vidyapeetham Campus 4,Private,South,Tamil Nadu,Coimbatore,180000,8.7,19
+SASTRA University Campus 4,Private,South,Tamil Nadu,Thanjavur,170000,8.5,35
+Shiv Nadar University Chennai Campus 4,Private,South,Tamil Nadu,Chennai,300000,8.6,40
+Christ University Campus 4,Private,South,Karnataka,Bangalore,190000,8.6,35
+Manipal Academy of Higher Education Campus 4,Private,South,Karnataka,Manipal,300000,9.0,25
+REVA University Campus 4,Private,South,Karnataka,Bangalore,180000,7.9,70
+Dayananda Sagar University Campus 4,Private,South,Karnataka,Bangalore,200000,8.0,80
+Jain University Campus 4,Private,South,Karnataka,Bangalore,220000,8.2,85
+KL University Campus 4,Private,South,Andhra Pradesh,Vijayawada,200000,8.2,40
+GITAM University Campus 4,Private,South,Andhra Pradesh,Vizag,210000,8.1,55
+SRKR Engineering College Campus 4,Private,South,Andhra Pradesh,Bhimavaram,120000,7.5,100
+IIT Delhi Campus 4,IIT,North,Delhi,New Delhi,220000,9.6,2
+Amity University Noida Campus 4,Private,North,Uttar Pradesh,Noida,300000,8.0,55
+Shiv Nadar University Campus 4,Private,North,Uttar Pradesh,Greater Noida,350000,8.6,35
+Bennett University Campus 4,Private,North,Uttar Pradesh,Greater Noida,320000,8.1,65
+Galgotias University Campus 4,Private,North,Uttar Pradesh,Greater Noida,180000,7.8,90
+Thapar Institute of Engineering and Technology Campus 4,Private,North,Punjab,Patiala,250000,8.7,30
+Lovely Professional University Campus 4,Private,North,Punjab,Jalandhar,180000,7.9,60
+Chandigarh University Campus 4,Private,North,Punjab,Chandigarh,170000,8.3,45
+BITS Pilani Campus 4,Private,West,Rajasthan,Pilani,400000,9.2,10
+Poornima University Campus 4,Private,West,Rajasthan,Jaipur,150000,7.5,110
+NMIMS Mumbai Campus 4,Private,West,Maharashtra,Mumbai,400000,8.8,25
+MIT World Peace University Campus 4,Private,West,Maharashtra,Pune,220000,8.3,50
+Symbiosis International University Campus 4,Private,West,Maharashtra,Pune,350000,9.0,20
+Parul University Campus 4,Private,West,Gujarat,Vadodara,160000,7.8,95
+Nirma University Campus 4,Private,West,Gujarat,Ahmedabad,250000,8.6,35
+KIIT University Campus 4,Private,East,Odisha,Bhubaneswar,250000,8.3,50
+Siksha 'O' Anusandhan Campus 4,Private,East,Odisha,Bhubaneswar,200000,8.0,70
+Brainware University Campus 4,Private,East,West Bengal,Kolkata,140000,7.6,120
+Techno India University Campus 4,Private,East,West Bengal,Kolkata,150000,7.7,115
+Amity University Raipur Campus 4,Private,Central,Chhattisgarh,Raipur,200000,7.8,100
+ITM University Gwalior Campus 4,Private,Central,Madhya Pradesh,Gwalior,180000,7.7,110
+Oriental University Campus 4,Private,Central,Madhya Pradesh,Indore,150000,7.5,130

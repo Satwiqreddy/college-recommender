@@ -1,0 +1,102 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model College {
+  id               String   @id @default(uuid())
+  name             String
+  shortName        String
+  location         String
+  description      String?  @db.Text
+  rating           Float?
+  reviewCount      Int      @default(0)
+  tuition          Int?
+  imageUrl         String   @db.Text
+  logoUrl          String   @db.Text
+  tags             String[]
+  type             String
+  approvals        String[]
+  highestPlacement String?
+  averagePlacement String?
+  establishedYear  Int?
+  ranking          String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  courses          Course[]
+}
+
+model Course {
+  id          String   @id @default(uuid())
+  name        String
+  duration    String
+  fees        Int
+  eligibility String
+  collegeId   String
+  college     College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+}
+
+model Question {
+  id        String   @id @default(uuid())
+  title     String
+  content   String
+  author    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  answers   Answer[]
+}
+
+model Answer {
+  id         String   @id @default(uuid())
+  content    String
+  author     String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id               String            @id @default(uuid())
+  name             String
+  email            String            @unique
+  password         String
+  role             String            @default("USER")
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  savedColleges    SavedCollege[]
+  savedComparisons SavedComparison[]
+  sessions         Session[]
+}
+
+model Session {
+  id        String   @id @default(uuid())
+  token     String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+model SavedCollege {
+  id        String   @id @default(uuid())
+  collegeId String   // The string ID matching mock-data.ts
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, collegeId])
+}
+
+model SavedComparison {
+  id        String   @id @default(uuid())
+  name      String?  // Optional custom name for the comparison
+  colleges  String   // JSON stringified array of college IDs
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
