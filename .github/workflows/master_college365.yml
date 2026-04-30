@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: read #This is required for actions/checkout
 
@@ -29,17 +29,10 @@ jobs:
           npm run build
       
       - name: Copy static files to standalone
-        shell: pwsh
         run: |
-          if (Test-Path "public") {
-            New-Item -ItemType Directory -Force -Path .next\standalone\public
-            Copy-Item -Path public\* -Destination .next\standalone\public -Recurse -Force
-          }
-          if (Test-Path ".next\static") {
-            New-Item -ItemType Directory -Force -Path .next\standalone\.next\static
-            Copy-Item -Path .next\static\* -Destination .next\standalone\.next\static -Recurse -Force
-          }
-      
+          cp -r public .next/standalone/public
+          cp -r .next/static .next/standalone/.next/static
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
@@ -73,4 +66,3 @@ jobs:
           app-name: 'college365'
           slot-name: 'Production'
           package: .
-          
